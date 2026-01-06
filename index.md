@@ -117,3 +117,10 @@ If you accidentally included `config.json` in your last commit:
 ```bash
 git rm --cached config.json
 git commit --amend --no-edit
+
+
+
+# Fix it (Run these commands one by one)
+> git branch            # Check your current branch (you will see main)
+
+> git push -u origin main --force           # Push the correct branch
