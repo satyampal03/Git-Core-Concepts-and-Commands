@@ -44,10 +44,9 @@
 12. For commit Message --> <git commit -m 'Commit Message here'>
 
 13. push you'r file/folder first time on you branch  --> <git push origin [branch name]>
+```
 
-
-
-# 📥 THE DEFINITIVE MANUAL: REMOVING GIT COMMITS (2025 EDITION)
+# THE DEFINITIVE MANUAL: REMOVING GIT COMMITS (2025 EDITION)
 
 This document provides a deep-dive into every mechanism available to remove commits from a Git repository, ranging from simple undos to complex history rewriting.
 
@@ -117,10 +116,13 @@ If you accidentally included `config.json` in your last commit:
 ```bash
 git rm --cached config.json
 git commit --amend --no-edit
-
+```
 
 
 # Fix it (Run these commands one by one)
 > git branch            # Check your current branch (you will see main)
 
 > git push -u origin main --force           # Push the correct branch
+
+# remove old account from VS-CODE
+>> git credential-manager erase
